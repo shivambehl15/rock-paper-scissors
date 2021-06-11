@@ -1,0 +1,142 @@
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.column {
+  text-align: center;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.result{
+  margin: 50px auto 0;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 5rem;
+  color: #B6D0E2;
+}
+
+body {
+  background-color: #7d5a50;
+}
+
+h1 {
+  margin: 30px 0;
+  font-family: 'Odibee Sans', cursive;
+  font-size: 8rem;
+  color: #deeeea;
+}
+
+h2{
+  margin: 100px auto 0;
+  font-family: 'Indie Flower', cursive;
+  font-size: 5rem;
+  color: #B6D0E2;
+
+}
+
+p {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Patrick Hand', cursive;
+  color: #ffddcc;
+  margin: 10px;
+}
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 250px;
+}
+
+
+footer{
+  margin: 60px auto 20px;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+a{
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+
+@media(max-width: 1024px){
+
+  .result{
+    font-size: 4rem;
+  }
+
+  h1{
+    font-size: 6rem;
+  }
+
+  h2{
+    font-size: 4rem;
+  }
+
+  p{
+    font-size: 2.5rem;
+  }
+
+  img{
+    width: 170px;
+  }
+
+}
+
+@media(max-width: 767px){
+
+  .result{
+    font-size: 2.5rem;
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 2.5rem;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+
+  img{
+    width: 140px;
+  }
+
+}
+
+@media(max-width: 480px){
+
+  .result{
+    font-size: 1.5rem;
+    margin: 25px auto 0;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+    margin: 50px auto 0;
+  }
+
+  p{
+    font-size: 1rem;
+    margin: 5px;
+  }
+
+  img{
+    width: 100px;
+  }
+
+}
