@@ -1,1 +1,1 @@
-# rock-paper-scissors
+Thia is rock paper scissors game made with HTML, CSS, JavaScript, and jQuery.
